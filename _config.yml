@@ -1,7 +1,7 @@
 # Setup
-title:               Rafael Pazini
-tagline:             'rflpazini'
-description:         'Personal site of Rafael'
+title:               '@rflpazini'
+tagline:             'Rafael Pazini'
+description:         'Software engineer @MercadoLivre, caipira do interior paulista 🇧🇷, Open Source enthusiast and "I think I am an interesting person".'
 url:                 https://rflpazini.com
 baseurl:             ''
 paginate:            5
@@ -9,7 +9,7 @@ permalink:           pretty
 
 # About/contact
 author:
-  name:              Rafael Pazini 
+  name:              '@rflpazini'
   url:               https://twitter.com/rflpazini
   email:             rflpazini@gmail.com
 
