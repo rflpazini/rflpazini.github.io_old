@@ -3,13 +3,22 @@ layout: default
 title: Accademia Accenture
 ---
 
-Aqui você vai encontrar todo o material e tópicos abordados nas aulas de Backend do Accademia-Accenture. Então aproveite para usufruir e estudar sempre que quiser 🤓
+# Accademia Accenture
 
 ```java
-public static void main(String[] args...) {
-    System.out.printls("Bem-vindos");
+public static void main(String[] args) {
+    System.out.println("Bem-vindos");
 }
 ```
+
+Aqui você vai encontrar todo o material e tópicos abordados nas aulas de Backend do Accademia-Accenture. Então aproveite para usufruir e estudar sempre que quiser 🤓
+
+
+## Dia 0
+
+O intúido do dia 0, ou primeiro dia se preferirem, é nos apresentarmos e já de cara explicar um pouco mais sobre alguns tópicos básicos como: Java Environment, Compiler, Development Tools e por ai vai...
+
+Aqui estão os <a href="https://bit.ly/2I8iwGj" target="_blank">Slides</a>
 
 
 
