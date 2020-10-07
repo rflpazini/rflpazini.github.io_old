@@ -16,7 +16,7 @@ Aqui você vai encontrar todo o material e tópicos abordados nas aulas de Backe
 
 ## Dia 0
 
-O intúido do dia 0, ou primeiro dia se preferirem, é nos apresentarmos e já de cara explicar um pouco mais sobre alguns tópicos básicos como: Java Environment, Compiler, Development Tools e por ai vai...
+O intuito do dia 0, ou primeiro dia se preferirem, é nos apresentarmos e já de cara explicar um pouco mais sobre alguns tópicos básicos como: Java Environment, Compiler, Development Tools e por ai vai...
 
 Aqui estão os <a href="https://bit.ly/2I8iwGj" target="_blank">Slides</a>
 
