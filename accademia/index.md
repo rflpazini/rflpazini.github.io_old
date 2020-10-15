@@ -26,5 +26,5 @@ O intuito do dia 0, ou primeiro dia se preferirem, é nos apresentarmos e já de
 No segundo dia vamos falar um pouco sobre Orientação a Objeto, seus pilares e tentar aplicacar esse conceito na prática.
 
 * Aqui estão os <a href="https://bit.ly/3kd9TrS" target="_blank">Slides</a>
-* [Exercícios](/accademia/exercises02)
+* [Exercícios](/accademia/exercises01)
 
