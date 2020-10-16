@@ -28,3 +28,9 @@ No segundo dia vamos falar um pouco sobre Orientação a Objeto, seus pilares e 
 * Aqui estão os <a href="https://bit.ly/3kd9TrS" target="_blank">Slides</a>
 * [Exercícios](/accademia/exercises01)
 
+## Dia 2
+
+No terceiro dia o assunto será Pacotes, Herança e Polimorfismo...
+
+* Aqui estão os <a href="https://bit.ly/37aeCXT" target="_blank">Slides</a>
+* [Exercícios](/accademia/exercises02)
