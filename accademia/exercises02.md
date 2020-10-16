@@ -9,9 +9,9 @@ title: Exercícios 02
 
 ## 1 - Criar uma classe Account
 
-Reorganize o código para que ele seja colocado em pacotes
-Crie a classe `CheckingAccount` no pacote `entity` e  faça com que ela seja filha da classe `Account`
-Crie a classe `SavingsAccount` no pacote `entity` e faça com que ela seja filha da classe `Account`
+* Reorganize o código para que ele seja colocado em pacotes.
+* Crie a classe `CheckingAccount` no pacote `entity` e  faça com que ela seja filha da classe `Account`
+* Crie a classe `SavingsAccount` no pacote `entity` e faça com que ela seja filha da classe `Account`
 
 Apesar de já conseguirmos criar os dois tipos de contas, nao conseguimos saber com qual tipo de conta estamos trabalhando. Para resolver isso, podemos criar um método `getType` em cada uma de nossas contas fazendo com que a conta corrente devolva a string "Checking Account" e a conta poupança devolva a string "Savings Account":
 
