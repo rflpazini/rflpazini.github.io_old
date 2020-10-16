@@ -37,7 +37,7 @@ Se mudarmos esse código para:
     Account savingsAccount = new SavingsAccount();
 ```
 
-Compila? Roda? O que muda? Qual é a utilidade disso? Realmente, essa não é a maneira mais útil do polimorfismo. Porém existe uma utilidade de declararmos uma variável de um tipo menos específico do que o objeto realmente é, como fazemos na classe ManipuladorDeContas.
+Compila? Roda? O que muda? Qual é a utilidade disso? Realmente, essa não é a maneira mais útil do polimorfismo.
 
 É extremamente importante perceber que não importa como nos referimos a um objeto, o método que será invocado é sempre o mesmo! A JVM vai descobrir em tempo de execução qual deve ser invocado, dependendo de que tipo é aquele objeto, não importando como nos referimos a ele.
 
