@@ -9,8 +9,9 @@ title: Exercícios 02
 
 ## 1 - Criar uma classe Account
 
+Reorganize o código para que ele seja colocado em pacotes
 Crie a classe `CheckingAccount` no pacote `entity` e  faça com que ela seja filha da classe `Account`
-Crie a classe `SavingsAccount` pacote `entity` e faça com que ela seja filha da classe `Account`
+Crie a classe `SavingsAccount` no pacote `entity` e faça com que ela seja filha da classe `Account`
 
 Apesar de já conseguirmos criar os dois tipos de contas, nao conseguimos saber com qual tipo de conta estamos trabalhando. Para resolver isso, podemos criar um método `getType` em cada uma de nossas contas fazendo com que a conta corrente devolva a string "Checking Account" e a conta poupança devolva a string "Savings Account":
 
@@ -18,9 +19,7 @@ Mude o comportamento da operação de `withdraw` de acordo com o tipo de conta q
 
 Ao tentarmos chamar o método `getType`, o compilador reclama que esse método não existe na classe `Account` apesar de existir nas classes filhas. Como estamos tratando todas as contas genericamente, só conseguimos acessar os métodos da classe mãe. Coloque o método na classe `Account` também retornando o valor dela...
 
-E se tentarmos realizar uma transferência da conta corrente para a conta poupança? O que acontece?
-
-Implemente um método `tranfer` na classe `Account`, que receberá um `tranfersAmount` e o objeto `Account`...
+E se tentarmos realizar uma transferência da conta corrente para a conta poupança? O que acontece? Implemente um método `tranfer` na classe `Account`, que receberá um `tranfersAmount` e o objeto `Account`...
 
 ### Bonus
 Considere o código abaixo:
