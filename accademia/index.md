@@ -34,3 +34,17 @@ No terceiro dia o assunto será Pacotes, Herança e Polimorfismo...
 
 * Aqui estão os <a href="https://bit.ly/37aeCXT" target="_blank">Slides</a>
 * [Exercícios](/accademia/exercises02)
+
+
+## Dia 3
+
+No quarto dia vamos falar um pouco sobre Abstração e começar a ver conceitos REST, como comentei com vocês.
+
+* Aqui estão os <a href="https://bit.ly/3k6chAM" target="_blank">Slides</a>
+* [Exercícios](/accademia/exercises03)
+
+
+
+
+
+
