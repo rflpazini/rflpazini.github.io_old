@@ -11,9 +11,9 @@ title: Exercícios 03
 
 > "Todo mundo é um conceito abstrato,uma generalização. Ninguém pode saber o que é melhor para cada um[...]", Crônica: Do seu jeito - Coisas da vida
 
-Repare que a nossa classe Conta é uma excelente candidata para uma classe abstrata. Por quê? Que métodos seriam interessantes candidatos a serem abstratos?
+Repare que a nossa classe `Account` é uma excelente candidata para uma classe abstrata. Por quê? Que métodos seriam interessantes candidatos a serem abstratos?
 
-* Transforme a classe Conta em abstrata e veja o que acontece quando fazemos isso...
+* Transforme a classe `Account` em abstrata e veja o que acontece quando fazemos isso...
 
 ### Se questione
 
