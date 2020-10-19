@@ -51,5 +51,13 @@ No quinto dia vamos falar de interface e discutir sobre composição e herança.
 * [Exercícios](/accademia/exercises04)
 
 
+## Dia 05 
+
+No sexto dia vamos ver estrutura de dados... Como conseguimos organizar nossos pensamentos sobre dados em estruturas que facilitam nossa vida durante a programação.
+
+
+
+
+
 
 
