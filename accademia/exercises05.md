@@ -9,7 +9,7 @@ title: Exercícios 05
 
 * Crie uma classe `ArrayTest` e no método main crie um array de contas de tamanho 10. Em seguida, faça um laço para criar 10 contas com saldos distintos e colocá-las no array. Por exemplo, você pode utilizar o índice do laço e multiplicá-lo por 100 para gerar o saldo de cada conta:
 
-* Ainda na classe `TestaArrays`, faça um outro laço para calcular e imprimir a média dos saldos de todas as contas do array.
+* Ainda na classe `ArrayTest`, faça um outro laço para calcular e imprimir a média dos saldos de todas as contas do array.
 
 (opcional) Crie uma classe `TestArraysSplit` que reescreva uma frase com as palavras na ordem invertida. "Socorram-me, subi no ônibus em Marrocos" deve retornar "Marrocos em ônibus no subi Socorram-me,". Utilize o método split da String para te auxiliar. Esse método divide uma String de acordo com o separador especificado e devolve as partes em um array de String, por exemplo:
 
@@ -45,7 +45,7 @@ Opcional: o método `addTo` pode gerar uma mensagem de erro indicando quando o a
 
 ### Grid de corrida
 
-1. Vamos adicionar um novo número na pole do grid de largada. Então dado um array, adicione o novo número ao início do mesm;
+* Vamos adicionar um novo número na pole do grid de largada. Então dado um array, adicione o novo número ao início do mesmo;
 
 Exemplo de array:
 ``` 
@@ -58,7 +58,7 @@ Exemplo de saida:
   1, 323, 3, 4, 345, 12, 433, 9
 ```
 
-2. Valide qual é o elemento único que existe dentro do array
+* Valide qual é o elemento único que existe dentro do array
 
 Exemplo de array:
 ```
@@ -70,7 +70,7 @@ Exemplo de saida:
   4
 ```
 
-3. Insira um novo valor no meio do array existente.
+* Insira um novo valor no meio do array existente.
 
 Exemplo de array:
 ```
