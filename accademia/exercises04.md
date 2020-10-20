@@ -7,7 +7,7 @@ title: Exercícios 04
 
 > Continuando nosso banco - pt 3...🏦 🏧 💸 
 
-## 1 - Que tal sermos menos concretos e mais abstratos?
+## 1 - Brincando de "frontend" hehehe, usando interfaces.
 
 * Nosso banco precisa tributar dinheiro de alguns bens que nossos clientes possuem. Para isso vamos criar uma interface `Taxable` no pacote entity do nosso projeto.
 
