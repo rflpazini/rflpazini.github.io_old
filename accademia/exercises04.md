@@ -5,7 +5,7 @@ title: Exercícios 04
 
 # Exercícios
 
-> Continuando nosso banco - pt 3...🏦 🏧 💸 
+> Continuando nosso banco - pt 4...🏦 🏧 💸 
 
 ## 1 - Brincando de "frontend" hehehe, usando interfaces.
 
@@ -20,18 +20,19 @@ Alguns bens são tributáveis e outros não, `SavingsAccount` não é tributáve
 > Aproveite a IDE! Quando você escrever o código implements em uma classe ela sugere para implementar os novos métodos da interface.
 
 * Crie a classe `LifeInsurence`, com os atributos `value`, `owner`, `insurenceNumber`. Com seus respectivos getters and setters. E implemente a lógica de cobrança do valor do imposto que comentei na linha acima. 
+`(value + 42 + (value * 0.02))`
 
 * Além disso, escreva o método `getType` retornando do que se trata nosso novo seguro.
 
 * Em nossa classe de testes e tente cadastrar um novo seguro de vida.
 
-* Faça com que seja possível saber que uma conta corrente pode ter um seguro de vida vinculado a ela.
-
 * Calcule todos os tributos que serão retirados de uma conta, por exemplo, o valor de administração da conta `CheckingAccount` e o valor total do `LifeInsurence`.
+
+* Faça com que seja possível saber que uma conta corrente pode ter um seguro de vida vinculado a ela.
 
 É interessante enxergar que as interfaces (como aqui, no caso, Taxable) costumam ligar classes muito distintas, unindo-as por uma característica que elas tem em comum. No nosso exemplo, `LifeInsurence` e `CheckingAccount` são entidades completamente distintas, porém ambas possuem a característica de serem tributáveis.
 
-Se amanhã o governo começar a tributar até mesmo `InvestimentAccount`, basta que essa classe implemente a interface `Taxable`! Repare no grau de desacoplamento que temos: a classe GerenciadorDeImpostoDeRenda nem imagina que vai trabalhar como `InvestimentAccount`. Para ela, o único fato que importa é que o objeto respeite o contrato de um tributável, isso é, a interface `Taxable`. Novamente: programe voltado à interface, não à implementação.
+Se um dia o governo começar a tributar até mesmo `InvestimentAccount`, basta que essa classe implemente a interface `Taxable`! Repare no grau de desacoplamento que temos: a classe GerenciadorDeImpostoDeRenda nem imagina que vai trabalhar como `InvestimentAccount`. Para ela, o único fato que importa é que o objeto respeite o contrato de um tributável, isso é, a interface `Taxable`. Novamente: programe voltado à interface, não à implementação.
 
 Quais os benefícios de manter o código com baixo acoplamento ???
 
