@@ -53,11 +53,10 @@ No quinto dia vamos falar de interface e discutir sobre composição e herança.
 
 ## Dia 05 
 
-No sexto dia vamos ver estrutura de dados... Como conseguimos organizar nossos pensamentos sobre dados em estruturas que facilitam nossa vida durante a programação.
+No sexto dia vamos começar a ver estrutura de dados (Array)... Como conseguimos organizar nossos pensamentos sobre dados em estruturas que facilitam nossa vida durante a programação.
 
-
-
-
+* Aqui estão os <a href="https://bit.ly/3klwRNK" target="_blank">Slides</a>
+* [Exercícios](/accademia/exercises05)
 
 
 
