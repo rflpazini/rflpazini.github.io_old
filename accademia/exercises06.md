@@ -49,6 +49,8 @@ title: Exercícios 01
 
 ## Exercícios: Ordenação
 
+
+
 Vamos ordenar o campo de destino da tela de detalhes da conta para que as contas apareçam em ordem alfabética de titular.
 
 Faça sua classe `Account` implementar a interface Comparable<Account>. Utilize o critério de ordenar pelo titular da conta.
@@ -69,3 +71,4 @@ Investigue a documentação da classe Collections dentro do pacote java.util.
 
 (opcional) Crie uma nova classe `ListTest` que cria uma ArrayList e insere novas contas com saldos aleatórios usando um laço (for). Adivinhe o nome da classe para colocar saldos aleatórios? Random. Do pacote java.util. Consulte sua documentação para usá-la (utilize o método nextInt() passando o número máximo a ser sorteado).
 
+*Bonus:* Dada uma lista de inteiros,  devolva o segundo maior número desta lista... 
