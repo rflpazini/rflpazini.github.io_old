@@ -59,7 +59,7 @@ No sexto dia vamos começar a ver estrutura de dados (Array)... Como conseguimos
 * [Exercícios](/accademia/exercises05)
 
 
-## Dia 05 
+## Dia 06
 
 Continuando com estruturas de dados... hoje são listas
 
