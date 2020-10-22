@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Exercícios 01
+title: Exercícios 06
 ---
 
 # Exercícios

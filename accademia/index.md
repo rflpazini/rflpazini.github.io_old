@@ -65,3 +65,10 @@ Continuando com estruturas de dados... hoje são listas
 
 * Aqui estão os <a href="https://bit.ly/3kljtcm" target="_blank">Slides</a>
 * [Exercícios](/accademia/exercises06)
+
+## Dia 07
+
+Continuando com estruturas de dados pt-3... Maps e Sets
+
+* Aqui estão os <a href="https://bit.ly/2TeYtbq" target="_blank">Slides</a>
+* [Exercícios](/accademia/exercises07)
