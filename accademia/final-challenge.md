@@ -18,13 +18,15 @@ e executar seu aplicativo.
 
 Seu programa receberá um objeto json como entrada no endpoint e deve fornecer uma saída de json para cada um.
 
+#### Endpoint com todas as autorizações:
 ```json
-// Endpoint com todas as autorizações
 {"account": {"active-card": true, "available-limit": 100}}
 {"transaction": {"merchant": "Burger King", "amount": 20, "time": "2019-02- 13T10:00:00.000Z"}}
 {"transaction": {"merchant": "Mercado Livre", "amount": 90, "time": "2019-02- 13T11:00:00.000Z"}}
+```
 
-// Operações filtradas por uma conta específica
+#### Operações filtradas por uma conta específica:
+```json
 {"account": {"active-card": true, "available-limit": 100}, "violations": []} 
 {"account": {"active-card": true, "available-limit": 80}, "violations": []} 
 {"account": {"active-card": true, "available-limit": 80}, "violations": ["insufficient-limit"]}
@@ -66,16 +68,18 @@ Depois de criada, a conta não deve ser atualizada ou recriada: `account-already
 
 Exemplos
 
-```json
-input
-{"account": {"active-card": true, "available-limit": 100}} ...
-{"account": {"active-card": true, "available-limit": 350}}
 
-output
+_input_
+```json
+{"account": {"active-card": true, "available-limit": 100}}
+{"account": {"active-card": true, "available-limit": 350}}
+```
+
+_output_
+```json
 {"account": {"active-card": true, "available-limit": 100}, "violations":[]}
 {"account": {"active-card": true, "available-limit": 100}, "violations": ["account-already-initialized" ]}
 ```
-
 
 
 ### 2. Autorização de transação
@@ -104,25 +108,26 @@ Exemplo
 
 Dado que existe uma conta com  ` active-card: true` e `available-limit: 100`:
 
+_input_
 ```json
-input
 {"transaction": {"merchant": "Burger King", "amount": 20, "time": "2019-02-13T10:00:00.000Z"}}
-
-output
+```
+_output_
+```json
 {"account": {"active-card": true, "available-limit": 80}, "violations": []}
 ```
 
-Dado que existe uma conta com `active-card: true` e ` available-limit: 80`:
+Dado que existe uma conta com `active-card: true` e `available-limit: 80`:
 
+
+_input_
 ```json
-input
 {"transaction": {"merchant": "Mercado Livre", "amount": 90, "time": "2019-02-13T11:00:00.000Z"}}
-
-output
+```
+_output_
+```json
 {"account": {"active-card": true, "available-limit": 80}, "violations":["insufficient-limit"]}
 ```
-
-
 
 ### Expectativas
 
