@@ -5,14 +5,13 @@ title: Final challenge
 
 # Final challenge - Autorizador 
 
-Você está encarregado de implementar um aplicativo que autoriza uma transação para uma conta específica utilizando o cartão de crédito após um conjunto de regras predefinidas.
+Você está encarregado de implementar uma **API** que autoriza uma transação para uma conta específica utilizando o cartão de crédito após um conjunto de regras predefinidas.
 
 Leia as instruções abaixo e fique à vontade para pedir esclarecimentos, se necessário.
 
 ### Descrição do projeto
 
-Seu arquivo README deve conter uma descrição do seu projeto, junto com instruções sobre como construir
-e executar seu aplicativo.
+Seu arquivo README deve conter uma descrição do seu projeto, junto com instruções sobre como construir e executar seu aplicativo.
 
 ### Exemplo de uso
 
@@ -99,9 +98,8 @@ Você deve implementar as seguintes regras, tendo em mente que novas regras apar
 * Nenhuma transação deve ser aceita sem uma conta devidamente inicializada: `account-not- initialized`
 * Nenhuma transação deve ser aceita quando o cartão não está ativo: `card-not-active`
 * O valor da transação não deve exceder o limite disponível: `insufficient-limit`
-* Não deve haver mais de 3 transações em um intervalo de 2 minutos: `high-frequency- small-interval`  (a ordem de entrada não pode ser invocada, uma vez que as transações podem eventualmente estar fora de ordem, respectivamente em seus horários)
-* Não deve haver mais de 1 transação semelhante (mesmo valor e comerciante) em um intervalo de 2 minutos:
-  `doubled-transaction`
+* Não deve haver mais de 3 transações em um intervalo de 2 minutos: `high-frequency-small-interval`  (a ordem de entrada não pode ser invocada, uma vez que as transações podem eventualmente estar fora de ordem, respectivamente em seus horários)
+* Não deve haver mais de 1 transação semelhante (mesmo valor e comerciante) em um intervalo de 2 minutos: `doubled-transaction`
 
 
 Exemplo
@@ -131,10 +129,15 @@ _output_
 
 ### Expectativas
 
+O que espero que vocês me entreguem:
+
+* Repositório no github com o código fonte, um README que seja claro e que conte todas as caracteristicas do projeto
+* Uma coleção do Postman ou Insomnia que contenhas todos os requests necessários para a API funcionar
+
 Neste exercício vou analisar os seguintes pontos:
 
 * Clareza de código: quero ver como vocês organizam o código, dão nomes para atributos e classe e afins. **Ps: English is a important skill at coding jobs** 🤗
-* Orientação a Objeto implementada no projeto
-* Implementação dos verbos e status HTTP
+* Orientação a Objeto
+* Lógica de implementação e como resolveram o problema
 * Versionamento de código utilizando git e GitHub. Vou analizar a árvore de desenvolvimento e ver se todos do grupo participaram da codificação
 
