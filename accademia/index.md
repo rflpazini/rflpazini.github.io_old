@@ -72,3 +72,7 @@ Continuando com estruturas de dados pt-3... Maps e Sets
 
 * Aqui estão os <a href="https://bit.ly/2TeYtbq" target="_blank">Slides</a>
 * [Exercícios](/accademia/exercises07)
+
+## Final challenge
+
+Criando uma aplicação que faz autorizações de cartão de crédito. Aqui está a [descrição do projeto](/accademia/final-challenge)
