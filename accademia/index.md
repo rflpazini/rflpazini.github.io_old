@@ -75,4 +75,4 @@ Continuando com estruturas de dados pt-3... Maps e Sets
 
 ## Final challenge
 
-Criando uma aplicação que faz autorizações de cartão de crédito. Aqui está a [descrição do projeto](/accademia/final-challenge)
+Criando uma aplicação que faz autorizações de cartão de crédito. Aqui está a [descrição do projeto](/accademia/finalchallenge)
