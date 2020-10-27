@@ -95,7 +95,7 @@ O estado atual da conta + quaisquer violações da lógica de negócios.
 
 Você deve implementar as seguintes regras, tendo em mente que novas regras aparecerão no futuro:
 
-* Nenhuma transação deve ser aceita sem uma conta devidamente inicializada: `account-not- initialized`
+* Nenhuma transação deve ser aceita sem uma conta devidamente inicializada: `account-not-initialized`
 * Nenhuma transação deve ser aceita quando o cartão não está ativo: `card-not-active`
 * O valor da transação não deve exceder o limite disponível: `insufficient-limit`
 * Não deve haver mais de 3 transações em um intervalo de 2 minutos: `high-frequency-small-interval`  (a ordem de entrada não pode ser invocada, uma vez que as transações podem eventualmente estar fora de ordem, respectivamente em seus horários)
