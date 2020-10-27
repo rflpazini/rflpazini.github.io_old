@@ -104,7 +104,7 @@ Você deve implementar as seguintes regras, tendo em mente que novas regras apar
 
 Exemplo
 
-Dado que existe uma conta com  ` active-card: true` e `available-limit: 100`:
+Dado que existe uma conta com  `active-card: true` e `available-limit: 100`:
 
 _input_
 ```json
