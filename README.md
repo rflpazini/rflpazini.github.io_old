@@ -106,6 +106,7 @@ Show an open sidebar on page load by modifying the `<input>` tag within the `sid
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" checked>
 ```
 
+
 Using Liquid you can also conditionally show the sidebar open on a per-page basis. For example, here's how you could have it open on the homepage only:
 
 ```html
