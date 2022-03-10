@@ -98,6 +98,8 @@ It's also available for a reversed layout when you add both classes:
 </body>
 ```
 
+
+
 ### Sidebar open on page load
 
 Show an open sidebar on page load by modifying the `<input>` tag within the `sidebar.html` layout to add the `checked` boolean attribute:
